@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>templateZero</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    </head>
+
+    <style>
+        body{
+            font-family: tahoma;
+            color: #282828;
+            margin: 0px;
+        }  
+        .nav-bar{
+            background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+            height: 60px;
+            margin-bottom: 15px;
+        }
+        .product {
+            display: flex;
+        }
+        .product-image {
+            flex-basis: 300px;
+        }
+        .product-info {
+            margin-top: 10px;
+            flex-basis: 300px;
+        }
+        img {
+            border: 1px solid #d8d8d8;
+            width: 200px;
+            margin: 20px;
+            box-shadow: 0px .5px 1px #d8d8d8;
+        }
+        .svg{
+            width: 18%;
+        }
+        .color-box{
+            width: 40px;
+            height: 40px;
+            margin-top: 5px;
+        }
+        .color-box2{
+            width: 40px;
+            height: 40px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 30px;
+            border: none;
+            background-color: #1E95EA;
+            color: white;
+            height: 40px;
+            width: 100px;
+            font-size: 14px;
+        } 
+        .disabledButton{
+            background-color: #d8d8d8;
+        }
+        .outOfStock{
+            color: red;
+        }
+        .onSale{
+            color: magenta;
+            font-weight: bold;
+        }
+        .cart {
+            margin-top: 10px;
+            border: solid lightgray 1px;
+            float: right;
+            margin-right: 20px;
+            margin-top: 29px;
+            background-color: #d8d8d8;
+            color: navy;
+            height: 40px;
+            width: 60px;
+            font-size: 14px;
+
+        }
+
+    </style>
+
+    <body>
+        
+        <div class="nav-bar"></div>
+        
+        <div id="app">
+            <product></product>
+        </div>
+
+        <br>
+        <hr>
+
+        <script src="templateZero.js"></script>
+    </body>
+</html>
