@@ -4,16 +4,20 @@
         <title>templateZero v3</title>
         <link rel="stylesheet" href="templateZero.css">
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+        <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.x/css/font-awesome.min.css" rel="stylesheet">
     </head>
 
     <body>
-        
-        <div class="nav-bar"></div>
-        
         <div id="app">
-            <product :premium="premium"></product>
+        <div class="nav-bar">
+            <div class="cart">
+                <p class="centered-text"><i class="fa fa-shopping-cart"></i> ({{ cart.length }})</p>
+            </div>
         </div>
-
+        
+            <product :premium="premium" @add-to-cart="updateCart"></product>
+        </div>
+        
         <br>
         <hr>
 

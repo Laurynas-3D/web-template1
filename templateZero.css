@@ -55,16 +55,11 @@ button {
 .outOfStock{
     color: red;
 }
-.onSale{
-    color: darkslategrey;
-    font-weight: bold;
-}
-.cart {
-    margin-top: 10px;
+.cart{
     border: solid lightgray 1px;
     float: right;
     margin-right: 20px;
-    margin-top: 29px;
+    margin-top: 10px;
     background-color: #d8d8d8;
     color: navy;
     height: 40px;
@@ -78,3 +73,77 @@ footer{
     height: 30px;
     margin-top: 20px;
 }
+
+/* new new new*/
+
+.btn-add-to-cart {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+    background-color: #1E95EA;
+    color: white;
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+} 
+.onSale{
+    color: dodgerblue;
+    font-weight: bold;
+}
+.rf-background {
+background-color:rgb(229, 247, 252);
+}
+.product-details {
+    font-size: 0.85rem;
+    background-color: white;
+}
+
+/* new productReviewComp*/
+
+.submit-review-form {
+        width: 400px;
+        padding: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border: 1px solid #d8d8d8;
+    }
+input {
+    width: 100%;  
+    height: 25px;
+    margin-bottom: 20px;
+}
+textarea {
+    width: 100%;
+    height: 60px;
+}
+.color_field{
+    background-color: rgb(229, 247, 252);
+}
+.submit-button{
+    border: 1px solid #d8d8d8;
+    height: 35px;
+    background-color: #1E95EA;
+    color: white;
+}
+
+/* new productTabsComp */
+
+.tab{
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid #d8d8d8;
+    display: block;
+    text-align: center;
+    height: 35px;
+    background-color: #1E95EA;
+    color: white;
+}
+.review-form {
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #d8d8d8;
+}
+
